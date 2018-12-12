@@ -8,3 +8,4 @@ also have to change your email setttings and turn on IMAP connection. Also
 enable less secure app to connect to your email. Detailed guide could be found in
 tutorial of IMAP email connection. 
 
+You will need jupyter notebook to open the mainfile projectnotebook.ipynb

@@ -6,6 +6,9 @@ def read_email_as_Strings(username,password):
     import imaplib
     import email
     import os
+    # Create TEXT folder to store messages
+    if not os.path.exists('text'):
+        os.mkdir('text')
     mail = imaplib.IMAP4_SSL('imap.gmail.com')
     # imaplib module implements connection based on IMAPv4 protocol
     mail.login(username, password)
